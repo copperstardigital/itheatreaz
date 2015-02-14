@@ -1,0 +1,31 @@
+@extends('layouts/index')
+
+@section('title', 'Behind the Herberger Theatre | Phoenix, AZ')
+@section('meta', 'ITheatre Collaborative is located behind the Herberger Theatre, which is located at 222 E. Monroe St in Phoenix.  Enter from Van Buren Street')
+
+@section('content')
+<div class="news content">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-xs-12">
+                <h2>Director's Corner</h2>
+                <p>Coming soon.</p>
+            </div>
+            <div class="col-md-2 hidden-xs">
+                <img src="{{ url('images/chair.png') }}" alt="Director's chair"/>
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <h3>News</h3>
+                <ul class="list-group news-list">
+                    @foreach ($newsItems as $news)
+                        <li class="list-group-item"><a href="/news">{{ $news->headline }}<br/><small>{{ $news->created_at->diffForHumans() }}</small></a></li>
+                    @endforeach
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</div>
+@stop
+
+
