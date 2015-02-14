@@ -53,6 +53,7 @@
                     <a class="btn btn-default {{ ($season == '2011-2012') ? 'active' : '' }}" href="/history/productions/2011-2012">2011-2012</a>
                     <a class="btn btn-default {{ ($season == '2012-2013') ? 'active' : '' }}" href="/history/productions/2012-2013">2012-2013</a>
                     <a class="btn btn-default {{ ($season == '2013-2014') ? 'active' : '' }}" href="/history/productions/2013-2014">2013-2014</a>
+                    <a class="btn btn-default {{ ($season == '2014-2015') ? 'active' : '' }}" href="/history/productions/2014-2015">2014-2015</a>
                 </div>
             </div>
         </div>
