@@ -1,3 +1,3 @@
-## Itheatre Collaborative
+## iTheatre Collaborative
 
-Repo for http://www.itheatreaz.org
+Repo for iTheatre Collaborative.  Laravel 5 project.
