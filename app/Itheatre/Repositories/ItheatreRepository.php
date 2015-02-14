@@ -10,7 +10,7 @@ use App\Models\Production;
 
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 
-class ItheatreRepository implements iTheatreInterface {
+class ItheatreRepository {
 
 
     public function getArticlesById($article_id) {
