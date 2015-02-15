@@ -11,8 +11,8 @@
                 <img class="img-responsive" src="{{ url('images/' . $article->image) }}" />
             </div>
             <div class="col-md-8">
-                <h1>{{{ $article->headline }}}</h1>
-                {{ $article->article }}
+                <h1>{{ $article->headline }}</h1>
+                {!! $article->article !!}
 
                 <form>
 
