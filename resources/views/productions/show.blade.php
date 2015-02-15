@@ -29,7 +29,7 @@
                 <p>{{ $production->run }}</p>
                 <p><strong>{{ $production->dates }}</strong></p>
 
-                {{ $production->show_description }}
+                {!! $production->show_description !!}
 
                 <br/><br/>
 

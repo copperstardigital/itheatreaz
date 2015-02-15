@@ -73,7 +73,7 @@
                     <div class="col-sm-8 col-md-8 col-lg-8">
                         <h2 style="margin-top: 0">{{ $production->title }}</h1>
                             <h3>{{ $production->run }}</h2>
-                        {{ substr($production->show_description, 0, 200) }}
+                        {!! substr($production->show_description, 0, 200) !!}
                         @if (strlen($production->show_description) > 200)
                         {{ '...' }}
                         @endif
