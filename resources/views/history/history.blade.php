@@ -11,7 +11,7 @@
         <div class="row" style="margin-top: 20px;">
             <div class="col-md-4 col-sm-4">
                 <h2 style="margin-top: 0px;">{{ $season['season'] }}</h2>
-                <img style="margin-bottom: 20px;" class="img-responsive" src="{{ url('images/history/' . $season['image']) }}" />
+                <img style="margin-bottom: 20px;" class="img-responsive" src="{{ url('images/history/' . $season['image']) }}?t={{ time() }}" />
             </div>
             <div class="col-md-8 col-sm-8">
                 <ul class="list-group">
