@@ -1,6 +1,8 @@
 <?php namespace App\Http\Controllers\Home;
 
 use App\Http\Controllers\Controller;
+use App\Http\Requests\ContactRequest;
+use App\Itheatre\Notifications\Flash;
 use App\Itheatre\Repositories\ItheatreRepository;
 use App\Itheatre\Validators\Contact;
 use App\Itheatre\Mailers\ContactMailer;
@@ -50,24 +52,14 @@ class ContactController extends Controller {
 	 *
 	 * @return Response
 	 */
-	public function store()
+	public function store(ContactRequest $request)
 	{
-        if (!$this->validator->passes(Input::all())) {
-            return Redirect::back()->withErrors($this->validator->errors())->withInput();
-        }
-
-        $data = array();
-        $data['name'] = Input::get('name');
-        $data['email'] = Input::get('email');
-        $data['phone'] = Input::get('phone');
-        $data['comments'] = Input::get('comments');
-
-        // $this->mailer->contact($data);
+        $this->mailer->contact($request->all());
 
         //$this->thankYou->thank($data);
 
         Flash::success('Your message has been received.  We will get back to you shortly.');
-        return Redirect::back();
+        return redirect()->back();
 	}
 
 

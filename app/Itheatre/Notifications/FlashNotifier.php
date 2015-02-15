@@ -28,7 +28,7 @@ class FlashNotifier {
     }
 
     public function overlay($message) {
-        $this->mesage($message);
+        $this->message($message);
         $this->session->flash('flash_notification.overlay', true);
     }
 }

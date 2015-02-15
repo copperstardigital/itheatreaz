@@ -18,17 +18,11 @@
                 {!! Form::open() !!}
                     {!! Form::textField('name', 'Name:', Input::old('name')) !!}
 
-                    {!! $errors->first('name', '<p class="error">:message</p>') !!}
-
                     {!! Form::textField('email', 'Email Address:', Input::old('email')) !!}
-
-                    {!! $errors->first('email', '<p class="error">:message</p>') !!}
 
                     {!! Form::textField('phone', 'Phone:', Input::old('phone')) !!}
 
                     {!! Form::textBox('comments', 'Comments/Question:', Input::old('comments')) !!}
-
-                    {!! $errors->first('comments', '<p class="error">:message</p>') !!}
 
                     {!! Form::submitButton('Send Email', 'primary') !!}
                 {!! Form::close() !!}

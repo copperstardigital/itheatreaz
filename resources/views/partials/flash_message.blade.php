@@ -1,4 +1,4 @@
-@if (Session::has('flash_notification') && empty($errors))
+@if (Session::has('flash_notification'))
     @if (Session::has('flash_notification.overlay'))
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -17,7 +17,7 @@
             </div>
         </div>
     </div>
-    @else
+    @elseif (Session::has('flash_notification.message'))
     <div class="alert alert-{{ Session::get('flash_notification.level') }}">
             <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
             {{ Session::get('flash_notification.message') }}
