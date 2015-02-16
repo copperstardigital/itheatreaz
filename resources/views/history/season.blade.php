@@ -1,6 +1,6 @@
 @extends('layouts.home')
 
-@section('title', 'Our Mission and Vision | Phoenix, AZ')
+@section('title', 'History | Phoenix, AZ')
 @section('meta', 'iTheatre Collaborative will produce distinctive theatre that cultivates the visceral, innervating and divergent experiences intrinsic to live performance.')
 
 @section('content')
