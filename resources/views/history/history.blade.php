@@ -4,6 +4,12 @@
 @section('meta', 'iTheatre Collaborative has produced cutting edge theatre in Phoenix since 2003.')
 
 @section('content')
+<style>
+    html, body {
+        height: auto;
+    }
+</style>
+
 <div class="content">
     <div class="container">
         <h1>iTheatre Programming History</h1>
