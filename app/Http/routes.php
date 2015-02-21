@@ -39,4 +39,5 @@ Route::get('productions/{season}/{show}', 'Productions\ShowController@index');
 Route::get('productions/{season}', 'Productions\ProductionsController@index');
 
 Route::resource('mailchimp', 'Home\MailChimpController');
+Route::get('test', 'afasdfadsafds');
 

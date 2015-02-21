@@ -148,7 +148,8 @@ return [
 
 		'App\Providers\FlashServiceProvider',
 		'App\Providers\MacroServiceProvider',
-		'App\Providers\ViewComposerServiceProvider'
+		'App\Providers\ViewComposerServiceProvider',
+        'Bugsnag\BugsnagLaravel\BugsnagLaravelServiceProvider'
 
 
 	],
@@ -201,9 +202,8 @@ return [
 		'Form'      => 'Illuminate\Html\FormFacade',
 		'HTML'      => 'Illuminate\Html\HtmlFacade',
 
-		'Flash'     => 'App\Itheatre\Notifications\Flash'
-
-
+		'Flash'     => 'App\Itheatre\Notifications\Flash',
+        'Bugsnag' => 'Bugsnag\BugsnagLaravel\BugsnagFacade',
 
 
 	],
