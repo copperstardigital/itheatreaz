@@ -1,6 +1,7 @@
 <?php namespace App\Providers;
 
 use App\Models\Article;
+use App\Models\Production;
 use Illuminate\Support\ServiceProvider;
 
 class ViewComposerServiceProvider extends ServiceProvider {
@@ -29,6 +30,9 @@ class ViewComposerServiceProvider extends ServiceProvider {
 	{
 		view()->composer('errors.404', function ($view) {
 			$view->with('articles', Article::where('article_id', 18)->get());
+
+            $seasonId = getCurrentSeasonId();
+            $view->with('season', Production::where('season_id', $seasonId)->get());
 		});
 	}
 

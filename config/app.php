@@ -149,7 +149,8 @@ return [
 		'App\Providers\FlashServiceProvider',
 		'App\Providers\MacroServiceProvider',
 		'App\Providers\ViewComposerServiceProvider',
-        'Bugsnag\BugsnagLaravel\BugsnagLaravelServiceProvider'
+        'Bugsnag\BugsnagLaravel\BugsnagLaravelServiceProvider',
+        'App\Providers\AttachFileProvider'
 
 
 	],
