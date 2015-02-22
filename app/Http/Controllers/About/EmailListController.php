@@ -1,8 +1,9 @@
-<?php
+<?php namespace App\Http\Controllers\About;
 
-use Itheatre\Repositories\ItheatreRepository;
+use App\Http\Controllers\Controller;
+use App\Itheatre\Repositories\ItheatreRepository;
 
-class About_EmailListController extends \BaseController {
+class EmailListController extends Controller {
 
     private $repo;
 
@@ -19,7 +20,7 @@ class About_EmailListController extends \BaseController {
 	public function index()
 	{
 		$articles = $this->repo->getArticlesById(13);
-        return View::make('about.email-list', array(
+        return view('about.email-list', array(
             'articles' => $articles
         ));
 	}
