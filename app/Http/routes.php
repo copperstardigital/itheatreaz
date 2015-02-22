@@ -30,7 +30,6 @@ Route::get('location', 'About\LocationController@index');
 Route::get('mission', 'About\MissionController@index');
 Route::get('staff-biographies', 'About\StaffController@index');
 Route::get('about', 'About\AboutController@index');
-Route::get('email', 'About\EmailListController@index');
 
 Route::get('history', 'History\HistoryController@index');
 Route::get('history/productions/{season}', 'History\HistoryController@show');

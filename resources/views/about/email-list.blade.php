@@ -13,7 +13,7 @@
             </div>
             <div class="col-md-8">
                 <h1>{{{ $article->headline }}}</h1>
-                {{ str_replace('---', '', $article->article) }}
+                {!! str_replace('---', '', $article->article) !!}
             </div>
         </div>
         @endforeach
