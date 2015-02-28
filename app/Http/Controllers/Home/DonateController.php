@@ -21,7 +21,13 @@ class DonateController extends Controller {
 	{
 		$articles = $this->repo->getArticlesById(7);
         return view('home.donate', array(
-           'articles' => $articles
+           'articles' => $articles,
+           'collaborators' => $this->repo->getDonors('Collaborator'),
+           'sustainers' => $this->repo->getDonors('Sustainer'),
+           'partners' => $this->repo->getDonors('Partner'),
+           'contributors' => $this->repo->getDonors('Contributor'),
+           'allies' => $this->repo->getDonors('Ally'),
+           'supporters' => $this->repo->getDonors('Supporter'),
         ));
 	}
 

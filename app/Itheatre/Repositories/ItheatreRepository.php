@@ -2,6 +2,7 @@
 
 namespace App\Itheatre\Repositories;
 
+use App\Models\Donor;
 use App\Models\Article;
 use App\Models\News;
 use App\Models\Collaborator;
@@ -64,6 +65,10 @@ class ItheatreRepository {
             ->where('productions.season_id', 12)
             ->orderBy('show_order', 'ASC')
             ->get();
+    }
+
+    public function getDonors($level) {
+        return Donor::where('level', $level)->get();
     }
 
 
