@@ -4,6 +4,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Contracts\Auth\Guard;
 use Illuminate\Contracts\Auth\Registrar;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
+use Illuminate\Support\Facades\Auth;
 
 class AuthController extends Controller {
 
@@ -26,7 +27,11 @@ class AuthController extends Controller {
 	 * @param  \Illuminate\Contracts\Auth\Guard  $auth
 	 * @param  \Illuminate\Contracts\Auth\Registrar  $registrar
 	 * @return void
-	 */
+     *
+     */
+
+    protected $redirectTo = '/dashboard';
+
 	public function __construct(Guard $auth, Registrar $registrar)
 	{
 		$this->auth = $auth;
@@ -34,5 +39,14 @@ class AuthController extends Controller {
 
 		$this->middleware('guest', ['except' => 'getLogout']);
 	}
+
+    public function getLogin() {
+        return view('auth.login');
+    }
+
+    public function getLogout() {
+        Auth::logout();
+        return redirect()->to('/');
+    }
 
 }
