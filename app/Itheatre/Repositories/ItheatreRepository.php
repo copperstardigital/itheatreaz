@@ -53,7 +53,7 @@ class ItheatreRepository {
 
     public function getProductions($season)
     {
-        return Production::join('seasons', 'seasons.season_id', '=', 'productions.season_id')
+        return Production::join('seasons', 'seasons.id', '=', 'productions.season_id')
            ->leftJoin('history', 'history.season_id', '=', 'productions.season_id')
            ->where('season', $season)
            ->get();
