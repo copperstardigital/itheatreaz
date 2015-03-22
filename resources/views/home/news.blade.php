@@ -15,7 +15,7 @@
                     </div>
                     <div class="col-md-8">
                         <h1>{{{ $news->headline }}}</h1>
-                        {{ $news->story }}
+                        {!! $news->story !!}
                     </div>
                 </div>
             @endforeach
