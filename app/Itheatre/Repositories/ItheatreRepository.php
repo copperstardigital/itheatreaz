@@ -61,7 +61,7 @@ class ItheatreRepository {
 
     public function getCarousel()
     {
-        return Production::leftJoin('seasons', 'seasons.season_id',  '=', 'productions.season_id')
+        return Production::leftJoin('seasons', 'seasons.id',  '=', 'productions.season_id')
             ->where('productions.season_id', 12)
             ->orderBy('show_order', 'ASC')
             ->get();
