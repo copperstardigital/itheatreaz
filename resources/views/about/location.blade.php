@@ -7,8 +7,8 @@
 <div class="content">
     <div class="container">
         <div class="row">
-            <div class="col-sm-6">
-                <div id="map" style="width: 50%; height: 600px;">
+            <div class="col-sm-6" style="float: none;">
+                <div id="map" style="width: 100%; height: 600px;">
                     <!-- Map here -->
                 </div>
             </div>
