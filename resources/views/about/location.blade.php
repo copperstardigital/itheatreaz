@@ -8,7 +8,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <div id="map" style="width: 100%; height: auto;">
+                <div id="map" style="width: 100%; height: 400px;">
                     <!-- Map here -->
                 </div>
             </div>
