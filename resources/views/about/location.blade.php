@@ -45,7 +45,7 @@
                 //icon: 'http://www.pozsocialphx.com/images/redribbon.png'
             });
 
-            lambda.setMap(map);
+            itc.setMap(map);
 
             var infowindow = new google.maps.InfoWindow();
 
