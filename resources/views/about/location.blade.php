@@ -13,7 +13,7 @@
     <div class="container-fluid">
         <div class="row map">
             <div class="col-sm-6" style="float: none;">
-                <div id="map" style="width: 100%; height: 100%;">
+                <div id="map" style="width: 100%; height: 400px;">
                     <!-- Map here -->
                 </div>
             </div>
