@@ -7,12 +7,12 @@
 <div class="content">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
-                <div id="map" style="width: 100%; height: 400px;">
+            <div class="col-sm-6">
+                <div id="map" style="width: 90%; height: 600px;">
                     <!-- Map here -->
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-sm-6">
                 @foreach ($articles as $article)
                     <h1>{{{ $article->headline }}}</h1>
                     {!! $article->article !!}
