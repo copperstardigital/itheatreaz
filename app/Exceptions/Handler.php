@@ -37,10 +37,6 @@ class Handler extends ExceptionHandler {
 	 */
 	public function render($request, Exception $e)
 	{
-        if ($e instanceof \Illuminate\Database\Eloquent\ModelNotFoundException) {
-            Flash::danger('The resource you are looking for could not be found.');
-            return response()->view('errors.404', array(), 404);
-        }
 
 		return parent::render($request, $e);
 	}
