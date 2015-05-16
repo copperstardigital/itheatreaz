@@ -2,7 +2,8 @@
 
 use App\Itheatre\Notifications\Flash;
 use Exception;
-use Bugsnag\BugsnagLaravel\BugsnagExceptionHandler as ExceptionHandler;
+//use Bugsnag\BugsnagLaravel\BugsnagExceptionHandler as ExceptionHandler;
+use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 
 class Handler extends ExceptionHandler {
 
@@ -37,6 +38,10 @@ class Handler extends ExceptionHandler {
 	 */
 	public function render($request, Exception $e)
 	{
+        if ($e instanceof \Illuminate\Database\Eloquent\ModelNotFoundException) {
+            Flash::danger('The resource you are looking for could not be found.');
+            return response()->view('errors.404', array(), 404);
+        }
 
 		return parent::render($request, $e);
 	}
