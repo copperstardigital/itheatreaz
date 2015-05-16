@@ -1,7 +1,7 @@
 @extends('layouts.home')
 
 @section('title', 'Our Location | Phoenix, AZ')
-@section('meta', 'iTheatre has resided in the Herberger\'s best kept secret. Our "backstage" blackbox theater is located on the Center\'s northside on Van Buren Street just west of 3rd Street. ')
+@section('meta', 'iTheatre has resided in the Herberger\'s best kept secret. Our backstage blackbox theater is located on the Center\'s northside on Van Buren Street just west of 3rd Street. ')
 
 @section('content')
 <div class="content">
