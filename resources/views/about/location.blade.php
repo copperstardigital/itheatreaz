@@ -6,8 +6,8 @@
 @section('content')
 
 <div class="content">
-    <div class="container-fluid">
-        <div class="row map">
+    <div class="container">
+        <div class="row">
             <div class="col-sm-6">
                 <div id="map" style="width: 100%; height: 400px;">
                     <!-- Map here -->
