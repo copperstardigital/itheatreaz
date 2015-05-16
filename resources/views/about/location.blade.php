@@ -5,10 +5,6 @@
 
 @section('content')
 
-<style>
-    html, body, .container-fluid, .col-sm-6, .row, .map { height: 100% }
-</style>
-
 <div class="content">
     <div class="container-fluid">
         <div class="row map">
