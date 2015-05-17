@@ -5,6 +5,12 @@
 
 @section('content')
 
+<style>
+    html, body, .content, .container, .row, .col-sm-6, .col-md-6, .col-lg-6, #map {
+        height: 100%;
+    }
+</style>
+
 <div class="content">
     <div class="container">
         <div class="row">
@@ -24,7 +30,7 @@
 @stop
 
 @section('scripts')
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAcGDbgvjFEswUyMsJvA4oNS2WJXoxJXeA&sensor=false">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAncHoq6cxrBCPO7Ucx-fsDj5vVuZRQWhw&sensor=false">
     </script>
     <script type="text/javascript">
         $(function() {
