@@ -30,7 +30,7 @@
 @stop
 
 @section('scripts')
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAncHoq6cxrBCPO7Ucx-fsDj5vVuZRQWhw&sensor=false">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBft2lKnOhFyZSzTwPROTMU49D2nsa6gyI&sensor=false">
     </script>
     <script type="text/javascript">
         $(function() {
