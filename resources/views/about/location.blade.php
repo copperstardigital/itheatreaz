@@ -4,18 +4,11 @@
 @section('meta', 'iTheatre has resided in the Herberger\'s best kept secret. Our backstage blackbox theater is located on the Center\'s northside on Van Buren Street just west of 3rd Street. ')
 
 @section('content')
-
-<style>
-    html, body, .content, .container, .row, .col-sm-6, .col-md-6, .col-lg-6, #map {
-        height: 100%;
-    }
-</style>
-
 <div class="content">
     <div class="container">
-        <div class="row">
+        <div class="row" style="margin-top:75px;">
             <div class="col-sm-6 col-md-6 col-lg-6">
-                <div id="map" style="width: 100%; height: 400px;">
+                <div id="map" style="width: 100%; height: 600px;">
                     <!-- Map here -->
                 </div>
             </div>
