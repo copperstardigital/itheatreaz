@@ -17,5 +17,7 @@
                 </div>
             </div>
         @endforeach
+
+        {{ env('BUGSNAG_API') }}
     </div>
 @stop
