@@ -1,6 +1,6 @@
 <?php namespace App\Exceptions;
 
-// use App\Itheatre\Notifications\Flash;
+use App\Itheatre\Notifications\Flash;
 use Exception;
 // use Bugsnag\BugsnagLaravel\BugsnagExceptionHandler as ExceptionHandler;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
