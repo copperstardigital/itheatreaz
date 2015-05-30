@@ -25,7 +25,7 @@
                     Website Design/Development by </span><a href="http://www.scotthummel.net" target="_blank">Scott Hummel Interactive</a>
                 </div>
                 <div class="col-lg-6 col-xs-6">
-                    {!! Furm::open(['url' => 'mailchimp']) !!}
+                    {!! Form::open(['url' => 'mailchimp']) !!}
                         <div class="row">
                             <div class="col-sm-5"><label class="email">Join the Email List:</label></div>
                             <div class="col-sm-5"><input type="text" class="form-control" placeholder="Email Address" name="email"></div>
