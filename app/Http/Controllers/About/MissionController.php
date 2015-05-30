@@ -1,7 +1,7 @@
 <?php namespace App\Http\Controllers\About;
 
 use App\Http\Controllers\Controller;
-// use App\Itheatre\Repositories\ItheatreRepository;
+use App\Itheatre\Repositories\ItheatreRepository;
 
 class MissionController extends Controller {
 
