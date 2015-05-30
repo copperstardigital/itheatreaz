@@ -15,10 +15,7 @@
                     <h1>{{{ $article->headline }}}</h1>
                     {!! $article->article !!}
                 </div>
-
-                <?php echo function_exists('curl_version') . ' ' . ini_get('allow_url_fopen'); ?>
-
-                        </div>
+           </div>
         @endforeach
     </div>
 @stop
