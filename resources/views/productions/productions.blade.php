@@ -64,7 +64,7 @@
                 </div>-->
                 <?php */ endif; ?>
             </div>
-            <div class="col-sm-12 col-md-7 col-lg-7">
+            <div class="col-sm-12 col-md-9 col-lg-9">
                 @foreach ($productions as $production)
                 <div class="well">
                     <div class="row">
