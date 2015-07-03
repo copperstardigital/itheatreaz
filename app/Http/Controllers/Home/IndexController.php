@@ -25,9 +25,12 @@ class IndexController extends Controller {
 	{
         $news = $this->repo->getNews();
         $carousel = $this->repo->getCarousel();
+        $next = $this->repo->getNextShow();
+
         return view('home.index', [
             'newsItems' => $news,
-            'carousel' => $carousel
+            'carousel' => $carousel,
+            'next' => $next
         ]);
 	}
 

@@ -49,6 +49,6 @@
     <div class="arrow-box">
         <h3 style="padding-top: 5px">Next iTC Event:</h3>
     </div>
-    <h3 class="next-show">"An Almost Holy Picture" <small>June 12 - 27, 2015</small>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://herbergertheater.ticketforce.com/eventperformances.asp?evt=246" target="_blank" class="btn btn-primary">Buy Tickets</a>
+    <h3 class="next-show">{{ $next->title }} <small>{{ $next->run}}</small>&nbsp;&nbsp;&nbsp;&nbsp;<!--<a href="http://herbergertheater.ticketforce.com/eventperformances.asp?evt=246" target="_blank" class="btn btn-primary">Buy Tickets</a>-->
 </h3>
 </div>

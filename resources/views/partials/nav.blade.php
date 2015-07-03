@@ -32,10 +32,11 @@
                                         <span class="ds-icon-sm digital-suite pull-left no-top visible-xs"></span>
                                         CURRENT SEASON                      </a>
                                     <ul class="x-dropdown-menu" role="menu">
-                                        <li><a href="/productions/2014-2015/by-the-way-meet-vera-stark">By the Way, Meet Vera Stark</a></li>
-                                        <li><a href="/productions/2014-2015/love-disorder">Love Disorder</a></li>
-                                        <li><a href="/productions/2014-2015/something-about-december">Something About Decemeber</a></li>
-                                        <li><a href="/productions/2014-2015/an-almost-holy-picture">An Almost Holy Picture</a></li>
+                                        <li><a href="/productions/2015-2016/grounded">Grounded</a></li>
+                                        <li><a href="/productions/2015-2016/port-authority">Port Authority</a></li>
+                                        <li><a href="/productions/2015-2016/christmas-cabaret-2015">Christmas Cabaret</a></li>
+                                        <li><a href="/productions/2015-2016/passing-strange">Passing Strange</a></li>
+                                        <li><a href="/productions/2015-2016/velocity-of-autumn">The Velocity of Autumn</a></li>
                                     </ul>
                                 </li>
 
@@ -44,6 +45,7 @@
                                         <span class="ds-icon-sm digital-suite pull-left no-top visible-xs"></span>
                                         PAST SEASONS                      </a>
                                     <ul class="x-dropdown-menu" role="menu">
+                                        <li><a href="/productions/2014-2015">2014-2015 Season</a></li>
                                         <li><a href="/productions/2013-2014">2013-2014 Season</a></li>
                                         <li><a href="/productions/2012-2013">2012-2013 Season</a></li>
                                         <li><a href="/productions/2011-2012">2011-2012 Season</a></li>

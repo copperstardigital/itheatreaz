@@ -62,13 +62,18 @@ class ItheatreRepository {
     public function getCarousel()
     {
         return Production::leftJoin('seasons', 'seasons.id',  '=', 'productions.season_id')
-            ->where('productions.season_id', 12)
-            ->orderBy('show_order', 'ASC')
+            ->where('productions.season_id', 13)
+            ->orderBy('productions.show_closes', 'ASC')
             ->get();
     }
 
     public function getDonors($level) {
         return Donor::where('level', $level)->get();
+    }
+
+    public function getNextShow()
+    {
+        return Production::where('season_id', 13)->orderBy('show_closes', 'ASC')->first();
     }
 
 
