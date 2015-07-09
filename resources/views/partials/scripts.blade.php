@@ -1,6 +1,6 @@
-</div></div>
+</div></div></div></div>
 
-<br style="clear:both" />
+<br style="clear:both;" />
 
 <footer id="footer">
     <div id="collaborators-box">
