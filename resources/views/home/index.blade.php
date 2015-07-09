@@ -20,7 +20,7 @@
                 @if (!empty($newsItems))
                     <ul class="list-group news-list">
                         @foreach ($newsItems as $news)
-                            <li class="list-group-item"><a href="/news">{{ $news->headline }}<br/><small>{{ $news->created_at }}</small></a></li>
+                            <li class="list-group-item"><a href="/news">{{ $news->headline }}<br/><small>{{ $news->created_at->diffForHumans() }}</small></a></li>
                          @endforeach
                     </ul>
                 @else
