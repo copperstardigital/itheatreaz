@@ -17,7 +17,7 @@
 
                   <p>Next up, for this spot will be the second show in our season. Currently it is “Port Authority,” but that might be changing. How’s that for a teaser?</p>
 
-                  <p>&mdash iTC Artistic Director Christopher Haines</p>
+                  <p>&mdash; iTC Artistic Director Christopher Haines</p>
             </div>
             <div class="col-md-2 hidden-xs">
                 <img src="{{ url('images/chair.png') }}" alt="Director's chair"/>
@@ -36,8 +36,8 @@
                 @endif
             </div>
         </div>
-    </div>
-</div>
+
+
 @stop
 
 
