@@ -28,7 +28,7 @@
                         <p class="hidden-xs">{{ $c->run }}</p>
                         <p><strong>{{ $c->dates }}</strong></p>
 
-                        <a href="/productions/{{ $c->season }}/{{ $c->production_url }}" class="btn btn-primary">Details</a>
+                        <a href="/productions/{{ getCurrentSeason() }}/{{ $c->production_url }}" class="btn btn-primary">Details</a>
                     </div>
                 </div>
             </div>
