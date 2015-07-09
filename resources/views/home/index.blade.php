@@ -14,6 +14,7 @@
             <div class="col-md-2 hidden-xs">
                 <img src="{{ url('images/chair.png') }}" alt="Director's chair"/>
             </div>
+            <!-- News -->
             <div class="col-md-4 col-xs-12">
                 <h3>News</h3>
                 <ul class="list-group news-list">
@@ -21,7 +22,6 @@
                         <li class="list-group-item"><a href="/news">{{ $news->headline }}<br/><small>{{ $news->created_at->diffForHumans() }}</small></a></li>
                     @endforeach
                 </ul>
-
             </div>
         </div>
     </div>
