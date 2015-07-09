@@ -28,9 +28,7 @@
                         <p class="hidden-xs">{{ $c->run }}</p>
                         <p><strong>{{ $c->dates }}</strong></p>
 
-                        @if (date('Y-m-d') < date('Y-m-d', strtotime($c->show_closes)) && !empty($c->ticket_id))
-                            <a href="/productions/{{ $c->season }}/{{ $c->production_url }}" class="btn btn-primary">Details</a>
-                        @endif
+                        <a href="/productions/{{ $c->season }}/{{ $c->production_url }}" class="btn btn-primary">Details</a>
                     </div>
                 </div>
             </div>
