@@ -45,11 +45,13 @@
 
             <hr />
 
-            <div class="row hidden-xs">
-                
-                <div class="col-sm-8">
+            <div class="well">
 
-                    <h2>Show Images</h2>
+                <div class="row hidden-xs">
+
+                    <div class="col-sm-8">
+
+                        <h2>Show Images</h2>
 
                         <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
                             <!--<ol class="carousel-indicators">
@@ -75,8 +77,10 @@
                             <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
                             <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
                         </div>
+                    </div>
+                    <div class="col-sm-4"></div>
+
                 </div>
-                <div class="col-sm-4"></div>
 
             </div>
 
