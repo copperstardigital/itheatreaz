@@ -25,7 +25,7 @@
                 @if (!empty($production->location))
                     {{ $production->location }}
                 @endif
-                <p>{{ $production->presenter }}</p>
+                <p>{!! $production->presenter !!}</p>
                 <p>{{ $production->run }}</p>
                 <p><strong>{!! $production->dates !!}</strong></p>
 
