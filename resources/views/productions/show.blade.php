@@ -27,7 +27,7 @@
                 @endif
                 <p>{{ $production->presenter }}</p>
                 <p>{{ $production->run }}</p>
-                <p><strong>{{ $production->dates }}</strong></p>
+                <p><strong>{!! $production->dates !!}</strong></p>
 
                 {!! $production->show_description !!}
 
