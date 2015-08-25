@@ -36,6 +36,9 @@
                 @if (date('Y-m-d') < date('Y-m-d', strtotime($production->show_closes)) && !empty($production->ticket_id))
                     <a href="http://herbergertheater.ticketforce.com/eventperformances.asp?evt=<?php echo $production->ticket_id; ?>" target="_blank" class="btn btn-primary">Buy Tickets</a>
                 @endif
+
+                <br/><br/>
+
             </div>
         </div>
 
@@ -45,9 +48,9 @@
 
             <hr />
 
-            <div class="well">
+            <div class="well hidden-xs" style="margin-bottom: 100px;">
 
-                <div class="row hidden-xs">
+                <div class="row">
 
                     <div class="col-sm-8">
 
