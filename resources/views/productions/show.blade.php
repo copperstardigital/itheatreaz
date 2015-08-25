@@ -38,6 +38,71 @@
                 @endif
             </div>
         </div>
+
+        <?php $carousel = glob(public_path() . '/images/slideshows/' . $production->production_url . '/*'); ?>
+
+        @if (count($carousel))
+
+            <hr />
+
+            <div class="row hidden-xs">
+                
+                <div class="col-sm-8">
+
+                    <h2>Show Images</h2>
+
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
+                            <!--<ol class="carousel-indicators">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1">
+                                <li data-target="#myCarousel" data-slide-to="2">
+                                <li data-target="#myCarousel" data-slide-to="3">
+                            </ol>-->
+
+                            <div class="carousel-inner">
+                                <?php $counter = 1; ?>
+
+
+                                @foreach ($carousel as $photo)
+                                    <div class="item {{ ($counter == 1) ? 'active' : '' }}">
+                                        <img class="img-responsive img-thumbnail" src="/images/slideshows/{{ $production->production_url }}/{{ basename($photo) }}" alt="{{ $production->title }}" />
+                                    </div>
+                                    <?php $counter++; ?>
+                                @endforeach
+
+                            </div>
+
+                            <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                            <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+                        </div>
+                </div>
+                <div class="col-sm-4"></div>
+
+            </div>
+
+        @endif
     </div>
+
 </div>
+@stop
+
+@section('css')
+
+    <style>
+        @media screen and (min-width: 766px) {
+            .carousel-inner > .item img {
+                max-width: 97%;
+                float: left !important;
+            }
+        }
+
+        @media screen and (max-width: 766px) {
+            .carousel-inner > .item img {
+                max-width: 100%;
+                float: left !important;
+            }
+        }
+    </style>
+
+
 @stop

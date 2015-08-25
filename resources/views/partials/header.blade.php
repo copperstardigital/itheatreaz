@@ -17,6 +17,8 @@
     <link href='http://fonts.googleapis.com/css?family=Amaranth|Viga|Dosis:400,800,700|Rambla:400,700,700italic|BenchNine:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ url('css/styles.css') }}" />
 
+    @yield('css')
+
     <style>
         #outer-wrap:after {
             height: 0;
