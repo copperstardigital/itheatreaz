@@ -17,13 +17,21 @@
 
                   <p>Next up, for this spot will be the second show in our season. Currently it is “Port Authority,” but that might be changing. How’s that for a teaser?</p>-->
 
-                <p>Is it me or did July just whip past?</p>
+                <!--<p>Is it me or did July just whip past?</p>
 
                 <p>August and we are rapidly approaching the opening show of our 13th season. That show, "Grounded," is already in rehearsal. Caitlin Newman is playing the Pilot in this one-woman show. Caitlin literally just moved to the Valley from New York. We hope you will welcome her to Phoenix by coming to see this gripping, contemporary play opening August 21st.</p>
 
                 <p>Next up, in October, will be...well, I’m not sure. We have "Port Authority," a play I’ve wanted to do for some time. Or there is a play by one of the best Arab-American playwrights writing today and also an old friend and professor from my college days at Duke. His name is Yussef El Guindi. The play is "Hostages" which is about two Westerners taken hostage somewhere in the Middle East. It is a play about the mental trauma of being a hostage.</p>
 
-                <p>Both are great plays. I thought since "Grounded" is about the mental aspects of our military drone program, "Hostages" would be nice companion piece. Yussef is very excited about our producing it (not surprising, since he wrote it), but I am waiting on word from his agent to finalize the agreement. Then, I’ll pull the plug on "Port Authority." Well, actually, I’ll probably put it back in my back pocket. Probably should do an entire season of those plays that are back there; my back pocket is getting pretty full.</p>
+                <p>Both are great plays. I thought since "Grounded" is about the mental aspects of our military drone program, "Hostages" would be nice companion piece. Yussef is very excited about our producing it (not surprising, since he wrote it), but I am waiting on word from his agent to finalize the agreement. Then, I’ll pull the plug on "Port Authority." Well, actually, I’ll probably put it back in my back pocket. Probably should do an entire season of those plays that are back there; my back pocket is getting pretty full.</p>-->
+
+                <p>So…</p>
+
+                <p>First of all, “Grounded.” What a ride! Thank you to everyone who came. Critical <em>and</em> popular success. Incredible! Thank you Caitlin Newman, the star of the show. Thank you for sharing your talent. (She will also be sharing her talents with us at Christmas. Shhhhh ... you didn’t hear that from me).</p>
+
+                <p>Ok, now the bad news. For several years now we have received a general operating support grant from the City of Phoenix. This season we are not receiving that grant. Oh well. We could wring our collective hands and cry, “Poor us!” We’re not that kind of theater company. This is a business, after all. So, you lose a $5K grant (which, for us, is typically the budget for a show), we have to drop a show. Out of the five we were planning to produce this season, we decided that “Port Authority,” our next scheduled play, would be the one we are dropping from the season. I hope you hadn’t bought tickets yet. My apologies if you had (to make up for it, I’ll come cook you dinner).</p>
+
+               <p>Now the good news. We are adding one more performance of the ever-popular Christmas Cabaret. Monday, December 14th at 8pm. It’s a little awkward on a Monday, but it is certainly better than a sharp, pointy stick in the eye. Oh, by the way, the title of the show is “That’s Christmas to Me.”</p>
 
                   <p>&mdash; iTC Artistic Director Christopher Haines</p>
             </div>
