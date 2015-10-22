@@ -47,6 +47,6 @@
     <div class="arrow-box">
         <h3 style="padding-top: 5px">Next iTC Event:</h3>
     </div>
-    <h3 class="next-show">{{ $next->title }} <small>{{ $next->run }}</small>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://herbergertheater.ticketforce.com/eventperformances.asp?evt=358" target="_blank" class="btn btn-primary">Buy Tickets</a>
+    <h3 class="next-show">{{ $next->title }} <small>{{ $next->run }}</small>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://herbergertheater.ticketforce.com/eventperformances.asp?evt={{ $next->ticket_id }}" target="_blank" class="btn btn-primary">Buy Tickets</a>
 </h3>
 </div>
