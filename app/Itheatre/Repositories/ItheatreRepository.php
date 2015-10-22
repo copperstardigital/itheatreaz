@@ -73,7 +73,7 @@ class ItheatreRepository {
 
     public function getNextShow()
     {
-        return Production::where('season_id', 13)->orderBy('show_closes', 'ASC')->first();
+        return Production::where('season_id', 13)->where('show_closes', '>', date('Y-m-d'))->first();
     }
 
 
