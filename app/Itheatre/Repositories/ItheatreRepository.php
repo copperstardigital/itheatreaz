@@ -63,6 +63,7 @@ class ItheatreRepository {
     {
         return Production::leftJoin('seasons', 'seasons.id',  '=', 'productions.season_id')
             ->where('productions.season_id', 13)
+            ->where('show_closes', '>', date('Y-m-d'))
             ->orderBy('productions.show_closes', 'ASC')
             ->get();
     }
