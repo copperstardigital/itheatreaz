@@ -32,3 +32,5 @@ Route::get('productions/{season}', 'Productions\ProductionsController@index');
 
 Route::resource('mailchimp', 'Home\MailChimpController');
 
+// Route::get('carousel', 'Productions\CarouselController@index');
+

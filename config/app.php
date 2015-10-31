@@ -136,6 +136,7 @@ return [
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Html\HtmlServiceProvider',
+		'Illuminate\Broadcasting\BroadcastServiceProvider',
 
 		/*
 		 * Application Service Providers...
@@ -150,7 +151,7 @@ return [
 		'App\Providers\MacroServiceProvider',
 		'App\Providers\ViewComposerServiceProvider',
         'Bugsnag\BugsnagLaravel\BugsnagLaravelServiceProvider',
-        'App\Providers\AttachFileProvider'
+        'App\Providers\AttachFileProvider',
 
 
 	],
@@ -204,7 +205,7 @@ return [
 		'HTML'      => 'Illuminate\Html\HtmlFacade',
 
 		'Flash'     => 'App\Itheatre\Notifications\Flash',
-        'Bugsnag' => 'Bugsnag\BugsnagLaravel\BugsnagFacade',
+        'Bugsnag'   => 'Bugsnag\BugsnagLaravel\BugsnagFacade',
 
 
 	],
