@@ -16,7 +16,7 @@
 
                 <form>
 
-                <input class="btn btn-primary" type="submit" onclick="window.open('https://secure.acceptiva.com/?cst=589ae0')" value="Donate Online"></input>
+                <input class="btn btn-primary" type="submit" onclick="window.open('https://azgives.org/c/GivesDay/a/itheatreaz')" value="Donate Online"></input>
 
                 </form>
             </div>
