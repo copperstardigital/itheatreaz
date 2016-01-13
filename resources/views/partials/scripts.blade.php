@@ -10,7 +10,7 @@
                 <li><a id="art-works" href="http://arts.gov" target="_blank"></a></li>
                 <li><a id="phoenix" href="http://www.phoenix.gov" target="_blank"></a></li>
                 <li><a id="arizona-center" href="http://www.arizonacenter.com" target="_blank"></a></li>
-                <li><a id="scott-hummel" href="http://www.scotthummel.net" target="_blank"></a></li>
+                <li><a id="scott-hummel" href="http://www.piscean.com" target="_blank"></a></li>
             </ul>
     </div>
     <div id="links">
