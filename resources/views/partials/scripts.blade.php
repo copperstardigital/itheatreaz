@@ -24,7 +24,7 @@
                     <a href="/news">News</a> <span>&bull;</span>
                     <a href="/contact">Contact</a><br/>
                     <span>&copy; {{ date('Y') }} iTheatre Collaborative &bull;
-                    Website Design/Development by </span><a href="http://www.scotthummel.net" target="_blank">Scott Hummel Interactive</a>
+                    Website Design/Development by </span><a href="http://www.piscean.com" target="_blank">Piscean Digital</a>
                 </div>
                 <div class="col-lg-6 col-xs-6">
                     {!! Form::open(['url' => 'mailchimp']) !!}
