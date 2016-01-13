@@ -29,7 +29,7 @@
                 <div class="col-lg-6 col-xs-6">
                     {!! Form::open(['url' => 'mailchimp']) !!}
                         <div class="row">
-                            <div class="col-sm-5"><label class="email">Join the Email List:</label></div>
+                            <div class="col-sm-5"><label class="email">Join Email List:</label></div>
                             <div class="col-sm-5"><input type="text" class="form-control" placeholder="Email Address" name="email"></div>
                             <div class="col-sm-2"><button type="submit" class="btn btn-primary">Go</button>
                             </div>
