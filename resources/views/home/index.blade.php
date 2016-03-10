@@ -25,13 +25,19 @@
 
                 <p>Both are great plays. I thought since "Grounded" is about the mental aspects of our military drone program, "Hostages" would be nice companion piece. Yussef is very excited about our producing it (not surprising, since he wrote it), but I am waiting on word from his agent to finalize the agreement. Then, I’ll pull the plug on "Port Authority." Well, actually, I’ll probably put it back in my back pocket. Probably should do an entire season of those plays that are back there; my back pocket is getting pretty full.</p>-->
 
-                <p>So…</p>
+                <!--<p>So…</p>
 
                 <p>First of all, “Grounded.” What a ride! Thank you to everyone who came. Critical <em>and</em> popular success. Incredible! Thank you Caitlin Newman, the star of the show. Thank you for sharing your talent. (She will also be sharing her talents with us at Christmas. Shhhhh ... you didn’t hear that from me).</p>
 
                 <p>Ok, now the bad news. For several years now we have received a general operating support grant from the City of Phoenix. This season we are not receiving that grant. Oh well. We could wring our collective hands and cry, “Poor us!” We’re not that kind of theater company. This is a business, after all. So, you lose a $5K grant (which, for us, is typically the budget for a show), we have to drop a show. Out of the five we were planning to produce this season, we decided that “Port Authority,” our next scheduled play, would be the one we are dropping from the season. I hope you hadn’t bought tickets yet. My apologies if you had (to make up for it, I’ll come cook you dinner).</p>
 
-               <p>Now the good news. We are adding one more performance of the ever-popular Christmas Cabaret. Monday, December 14th at 8pm. It’s a little awkward on a Monday, but it is certainly better than a sharp, pointy stick in the eye. Oh, by the way, the title of the show is “That’s Christmas to Me.”</p>
+               <p>Now the good news. We are adding one more performance of the ever-popular Christmas Cabaret. Monday, December 14th at 8pm. It’s a little awkward on a Monday, but it is certainly better than a sharp, pointy stick in the eye. Oh, by the way, the title of the show is “That’s Christmas to Me.”</p>-->
+
+                <p>Resident Company. This is something we have been waiting and working toward for many years. Proof of the old adage, "Good things come to those who wait." Well, we have been waiting thirteen years!</p>
+
+                <p>You may ask what does this mean for iTheatre? In terms of our work, the kind of theater we do will not be changing. We will still perform on the Kax Stage utilizing the best local artists possible. If you saw "Passing Strange" which just closed or "Grounded" at the beginning of this season, we will still be doing work of that caliber and quality. What it does mean for us is a new level of stature and presence both at the Herberger and within our community. No longer will we be "the best kept secret in Phoenix."</p>
+
+                <p>So, raise a glass to iTheatre Collaborative (the next time you have a glass in hand) and drink a toast to the Herberger’s newest Resident Company.</p>
 
                   <p>&mdash; iTC Artistic Director Christopher Haines</p>
             </div>
