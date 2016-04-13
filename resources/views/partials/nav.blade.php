@@ -35,7 +35,7 @@
                                         <li><a href="/productions/2015-2016/grounded">Grounded</a></li>
                                         <li><a href="/productions/2015-2016/christmas-cabaret-2015">Christmas Cabaret</a></li>
                                         <li><a href="/productions/2015-2016/passing-strange">Passing Strange</a></li>
-                                        <li><a href="/productions/2015-2016/velocity-of-autumn">The Velocity of Autumn</a></li>
+                                        <li><a href="/productions/2015-2016/hostages">Hostages and other plays</a></li>
                                     </ul>
                                 </li>
 
