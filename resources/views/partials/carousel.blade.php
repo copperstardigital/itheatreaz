@@ -44,9 +44,11 @@
 <div class="curtain-left"></div>
 <div class="curtain-right"></div>
 <div class="stage-bottom-bar hidden-xs">
-    <div class="arrow-box">
-        <h3 style="padding-top: 5px">Next iTC Event:</h3>
-    </div>
-    <h3 class="next-show">{{ $next->title }} <small>{{ $next->run }}</small>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://herbergertheater.ticketforce.com/eventperformances.asp?evt={{ $next->ticket_id }}" target="_blank" class="btn btn-primary">Buy Tickets</a>
+    @if (!empty($next->ticket_id))
+        <div class="arrow-box">
+            <h3 style="padding-top: 5px">Next iTC Event:</h3>
+        </div>
+        <h3 class="next-show">{{ $next->title }} <small>{{ $next->run }}</small>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://herbergertheater.ticketforce.com/eventperformances.asp?evt={{ $next->ticket_id }}" target="_blank" class="btn btn-primary">Buy Tickets</a>
+    @endif
 </h3>
 </div>
