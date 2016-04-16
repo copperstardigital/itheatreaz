@@ -33,11 +33,21 @@
 
                <p>Now the good news. We are adding one more performance of the ever-popular Christmas Cabaret. Monday, December 14th at 8pm. It’s a little awkward on a Monday, but it is certainly better than a sharp, pointy stick in the eye. Oh, by the way, the title of the show is “That’s Christmas to Me.”</p>-->
 
-                <p>Resident Company. This is something we have been waiting and working toward for many years. Proof of the old adage, "Good things come to those who wait." Well, we have been waiting thirteen years!</p>
+                <!--<p>Resident Company. This is something we have been waiting and working toward for many years. Proof of the old adage, "Good things come to those who wait." Well, we have been waiting thirteen years!</p>
 
                 <p>You may ask what does this mean for iTheatre? In terms of our work, the kind of theater we do will not be changing. We will still perform on the Kax Stage utilizing the best local artists possible. If you saw "Passing Strange" which just closed or "Grounded" at the beginning of this season, we will still be doing work of that caliber and quality. What it does mean for us is a new level of stature and presence both at the Herberger and within our community. No longer will we be "the best kept secret in Phoenix."</p>
 
-                <p>So, raise a glass to iTheatre Collaborative (the next time you have a glass in hand) and drink a toast to the Herberger’s newest Resident Company.</p>
+                <p>So, raise a glass to iTheatre Collaborative (the next time you have a glass in hand) and drink a toast to the Herberger’s newest Resident Company.</p>-->
+
+                <p>What do you do when the lead actress in your upcoming show decides one beautiful day to go to a Farmer’s Market, slips on a gravel walkway, breaks her foot in three places, has surgery a week later, and is told by her doctor to not put weight on the foot for at least four months? Well, if you’re this Artistic Director, and that actress is Judy Rollings, and the show is Velocity of Autumn, you postpone the show.</p>
+
+                <p>So first of all, announcing the first show of our 2016/2017 Season at iTheatre Collaborative…Velocity of Autumn by Eric Coble starring Judy Rollings and Brad Bond! More on the rest of the season to come.</p>
+
+                <p>Second announcement, opening May 20th are three one-acts by Arab-American playwright Yussef El Guindi. We are calling the evening <a href="/productions/2015-2016/hostages">"Hostages"</a> & other plays. I have known Yussef since around 1988, when he was teaching playwrighting at Duke University, and I was just a bright-eyed undergrad. The play of his I saw was "Hostages," and obviously, I never forgot about it. Since then, Yussef has gone on to become an accomplished playwright, and I have gone on to start a little theatre company. And the intervening years have been fruitful and productive for both of us.</p>
+
+                <p>Hostages is a play about two men, taken hostage, somewhere in the Middle East. It is a play not so much about politics or world affairs, but what it is like to be a hostage, the mental aspect of the ordeal. The other two plays are both monologues. "The Birds Flew In" is about an Arab-American mother whose son has been killed in the Middle East while in the U.S. Army serving his new country. The grief stricken mother is trying to bury her son and come to terms with what his death means to her. The final play, "The Tyrant," imagines if a recently deposed and arrested dictator was given the opportunity to speak to an American audience. What does his side of the story sound like?</p>
+
+                <p>Please join us May 20-29 for Hostages & other plays by Yussef El Guindi presented by iTheatre Collaborative.</p>
 
                   <p>&mdash; iTC Artistic Director Christopher Haines</p>
             </div>
