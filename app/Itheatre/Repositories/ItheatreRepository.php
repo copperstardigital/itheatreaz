@@ -24,7 +24,9 @@ class ItheatreRepository {
 
     public function getNews()
     {
-        return News::where('date_expires', '>', date('Y-m-d'))->latest()->get();
+        return News::where('date_expires', '>', date('Y-m-d'))
+            ->where('active', 1)
+            ->latest()->get();
     }
 
     public function getCollaborators()
