@@ -2,6 +2,7 @@
 
 namespace App\Itheatre\Repositories;
 
+use App\Models\Corner;
 use App\Models\Donor;
 use App\Models\Article;
 use App\Models\News;
@@ -77,6 +78,11 @@ class ItheatreRepository {
     public function getNextShow()
     {
         return Production::where('season_id', 13)->where('show_closes', '>', date('Y-m-d'))->first();
+    }
+
+    public function getDirectorsCorner()
+    {
+        return Corner::orderBy('created_at', 'DESC')->firstOrFail();
     }
 
 

@@ -17,6 +17,7 @@ Route::get('/', ['as' => 'home', 'uses' => 'Home\IndexController@index']);
 Route::get('news', 'Home\NewsController@index');
 Route::resource('contact', 'Home\ContactController');
 Route::get('donate', 'Home\DonateController@index');
+Route::get('directors-corner', 'Home\DirectorsCornerController@index');
 
 Route::get('collaborators', 'About\CollaboratorsController@index');
 Route::get('location', 'About\LocationController@index');
