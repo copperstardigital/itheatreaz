@@ -15,7 +15,7 @@
 
         <div class="row">
             <div class="col-sm-6">
-                <img class="img-responsive" src="/images/shows/{{ $season }}/{{ $production->show_image }}" />
+                <img class="img-responsive img-thumb" src="/images/shows/{{ $season }}/{{ $production->show_image }}" />
             </div>
             <div class="col-sm-6">
                 <h1>&ldquo;{{ $production->title }}&rdquo;</h1>
