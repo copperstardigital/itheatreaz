@@ -15,7 +15,7 @@
             <div class="item {{ ($counter == 1) ? 'active' : '' }}">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                        <img alt="{{ $c->title }}" class="img-responsive img-center" style="width: 100%; max-width: 354.5px;" src="/images/shows/{{ getCurrentSeason() }}/{{ $c->show_image }}" />
+                        <img alt="{{ $c->title }}" class="img-responsive img-center img-thumbnail" style="width: 100%; max-width: 354.5px;" src="/images/shows/{{ getCurrentSeason() }}/{{ $c->show_image }}" />
 
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-12">
