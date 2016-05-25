@@ -26,7 +26,7 @@
                     {{ $production->location }}
                 @endif
                 <p>{!! $production->presenter !!}</p>
-                <p>{{ $production->run }}</p>
+                <h4>{{ $production->run }}</h4>
                 <p><strong>{!! $production->dates !!}</strong></p>
 
                 {!! $production->show_description !!}
