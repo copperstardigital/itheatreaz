@@ -2,21 +2,14 @@
 
 <div class="container stage">
 <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
-    <!--<ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1">
-        <li data-target="#myCarousel" data-slide-to="2">
-        <li data-target="#myCarousel" data-slide-to="3">
-    </ol>-->
 
     <div class="carousel-inner">
-        <?php $counter = 1; ?>
-        @foreach ($carousel as $c)
+        @forelse ($carousel as $c)
+
             <div class="item {{ ($counter == 1) ? 'active' : '' }}">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                         <img alt="{{ $c->title }}" class="img-responsive img-center img-thumbnail" style="width: 100%; max-width: 354.5px;" src="/images/shows/{{ getCurrentSeason() }}/{{ $c->show_image }}" />
-
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <h1>&ldquo;{{ $c->title }}&rdquo;</h1>
@@ -32,8 +25,25 @@
                     </div>
                 </div>
             </div>
+
             <?php $counter++; ?>
-        @endforeach
+
+        @empty
+
+            <div class="item active">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <img alt="No show" class="img-responsive img-center img-thumbnail" style="width: 100%; max-width: 354.5px;" src="/images/no-show.png" />
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <h1>No Show Currently Playing</h1>
+                        <h2>Another Show is Coming Soon!</h2>
+                        <p>Please check back later.</p>
+                    </div>
+                </div>
+            </div>
+
+        @endforelse
 
     </div>
 
