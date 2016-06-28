@@ -4,6 +4,7 @@
 <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
 
     <div class="carousel-inner">
+        <?php $counter = 1; ?>
         @forelse ($carousel as $c)
 
             <div class="item {{ ($counter == 1) ? 'active' : '' }}">
