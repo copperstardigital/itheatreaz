@@ -32,10 +32,8 @@
                                         <span class="ds-icon-sm digital-suite pull-left no-top visible-xs"></span>
                                         CURRENT SEASON                      </a>
                                     <ul class="x-dropdown-menu" role="menu">
-                                        <li><a href="/productions/2015-2016/grounded">Grounded</a></li>
-                                        <li><a href="/productions/2015-2016/christmas-cabaret-2015">Christmas Cabaret</a></li>
-                                        <li><a href="/productions/2015-2016/passing-strange">Passing Strange</a></li>
-                                        <li><a href="/productions/2015-2016/hostages">Hostages and other plays</a></li>
+                                        <li><a href="/productions/2016-2017/velocity-of-autumn">Velocity of Autumn</a></li>
+                                        <li><a href="/productions/2016-2017/veronicas-room">Veronica's Rooom</a></li>
                                     </ul>
                                 </li>
 
@@ -44,6 +42,7 @@
                                         <span class="ds-icon-sm digital-suite pull-left no-top visible-xs"></span>
                                         PAST SEASONS                      </a>
                                     <ul class="x-dropdown-menu" role="menu">
+                                        <li><a href="/productions/2016-2016">2015-2016 Season</a></li>
                                         <li><a href="/productions/2014-2015">2014-2015 Season</a></li>
                                         <li><a href="/productions/2013-2014">2013-2014 Season</a></li>
                                         <li><a href="/productions/2012-2013">2012-2013 Season</a></li>
