@@ -34,11 +34,11 @@ class ProductionsController extends Controller {
                 return redirect()->home();
             }
         } else {
-            $productions = $this->repo->getProductions('2014-2015');
+            $productions = $this->repo->getProductions('2015-2016');
             if (!empty($productions)) {
                 return view('productions.productions', [
                     'productions' => $productions,
-                    'season' => '2014-2015'
+                    'season' => '2015-2016'
                 ]);
             } else {
                 return redirect()->home();
