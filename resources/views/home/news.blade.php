@@ -11,7 +11,7 @@
             @foreach ($newsItems as $news)
                 <div class="row" style="margin-top: 20px;">
                     <div class="col-md-4">
-                        <img style="border: 2px dotted #FFF;" class="img-responsive" src="{{ url('images/news/' . $news->image) }}" />
+                        <img class="img-responsive img-thumbnial" src="{{ url('images/news/' . $news->image) }}" />
                     </div>
                     <div class="col-md-8">
                         <h1>{{{ $news->headline }}}</h1>
