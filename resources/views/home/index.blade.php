@@ -24,7 +24,7 @@
             <!-- News -->
             <div class="col-md-4 col-xs-12">
                 <h3>News</h3>
-                @if (!empty($newsItems))
+                @if (count($newsItems))
                     <ul class="list-group news-list">
                         @foreach ($newsItems as $news)
                             <li class="list-group-item"><a href="/news">{{ $news->headline }}<br/><small>{{ $news->created_at->diffForHumans() }}</small></a></li>
