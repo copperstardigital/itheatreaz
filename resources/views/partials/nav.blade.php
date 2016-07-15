@@ -33,7 +33,8 @@
                                         CURRENT SEASON                      </a>
                                     <ul class="x-dropdown-menu" role="menu">
                                         <li><a href="/productions/2016-2017/velocity-of-autumn">Velocity of Autumn</a></li>
-                                        <li><a href="/productions/2016-2017/veronicas-room">Veronica's Rooom</a></li>
+                                        <li><a href="/productions/2016-2017/veronicas-room">Veronica's Room</a></li>
+                                        <li><a href="/productions/2016-2017/give-me-christmas">Give Me Christmas</a></li>
                                     </ul>
                                 </li>
 
