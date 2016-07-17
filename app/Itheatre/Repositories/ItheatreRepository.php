@@ -2,6 +2,7 @@
 
 namespace App\Itheatre\Repositories;
 
+use App\Actor;
 use App\Models\Corner;
 use App\Models\Donor;
 use App\Models\Article;
@@ -83,6 +84,13 @@ class ItheatreRepository {
     public function getDirectorsCorner()
     {
         return Corner::orderBy('created_at', 'DESC')->firstOrFail();
+    }
+
+    public function getProductionWithStaffBySlug($slug)
+    {
+        return Production::with('actors', 'crew', 'playwrights')
+            ->where('production_url', $slug)
+            ->firstOrFail();
     }
 
 

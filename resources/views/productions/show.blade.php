@@ -42,6 +42,80 @@
             </div>
         </div>
 
+        @if (count($production->actors) || count($production->crew) || count($production->playwrights))
+
+            <hr />
+
+            <div class="row">
+                <div class="col-md-6">
+
+                    <div class="well production-staff">
+                        <h2>Cast</h2>
+
+                        @forelse ($production->actors as $actor)
+
+                            @if (File::exists('uploads/headshots/' . $actor->headshot))
+
+                                <div class="row" style="margin-bottom: 20px;">
+                                    <div class="col-md-4">
+
+                                        <img class="img-responsive img-thumbnail" src="/uploads/headshots/{{ $actor->headshot }}" alt="{{ $actor->first_name }} {{ $actor->last_name }}" />
+
+                                    </div>
+                                    <div class="col-md-8">
+                                        <p><strong>{{ $actor->first_name }} {{ $actor->last_name }}</strong> (<em>{{ $actor->pivot->roles }}</em>) {{ $actor->bio }}</p>
+                                    </div>
+                                </div>
+
+                            @else
+
+                                <p><strong>{{ $actor->first_name }} {{ $actor->last_name }}</strong> (<em>{{ $actor->pivot->roles }}</em>) {{ $actor->bio }}</p>
+
+                            @endif
+
+                        @empty
+
+                            <p>This show has no actors.</p>
+
+                        @endforelse
+
+                    </div>
+
+                </div>
+                <div class="col-md-6">
+
+                    <div class="well">
+                        <h2>Playwright{{ (count($production->playwrights) == 1) ? '' : 's' }}</h2>
+
+                        @forelse ($production->playwrights as $playwright)
+
+                            <p><strong>{{ $playwright->first_name }} {{ $playwright->last_name }}</strong> {{ $playwright->bio }}</p>
+
+                        @empty
+
+                            <p>This show has no playwrights.</p>
+
+                        @endforelse
+
+                        <h2>Creative Team</h2>
+
+                        @forelse ($production->crew as $crew)
+
+                            <p><strong>{{ $crew->first_name }} {{ $crew->last_name }}</strong> (<em>{{ $crew->pivot->roles }}</em>)</p>
+
+                        @empty
+
+                            <p>This show has no creative team.</p>
+
+                        @endforelse
+
+                    </div>
+
+                </div>
+            </div>
+
+        @endif
+
         <?php $carousel = glob(public_path() . '/images/slideshows/' . $production->production_url . '/*'); ?>
 
         @if (count($carousel))

@@ -1,6 +1,7 @@
 <?php namespace App\Http\Controllers\Productions;
 
 use App\Http\Controllers\Controller;
+use App\Itheatre\Repositories\ItheatreRepository;
 use App\Models\Production;
 
 class ShowController extends Controller {
@@ -10,13 +11,14 @@ class ShowController extends Controller {
 	 *
 	 * @return Response
 	 */
-	public function index($season, $slug)
+	public function index($season, $slug, ItheatreRepository $repo)
 	{
-        $production = Production::where('production_url', $slug)->first();
+        $production = $repo->getProductionWithStaffBySlug($slug);
+
         if (is_object($production)) {
             return view('productions.show', [
                 'production' => $production,
-                'season' => $season
+                'season' => $season,
             ]);
         } else {
             $production = Production::where('production_url', 'by-the-way-meet-vera-stark')->first();
