@@ -63,7 +63,7 @@
 
                                     </div>
                                     <div class="col-md-8">
-                                        <p><strong>{{ $actor->first_name }} {{ $actor->last_name }}{{ ($actor->equity) ? '*' : ''}}</strong> (<em>{{ $actor->pivot->roles }}</em>) {{ $actor->bio }}</p>
+                                        <p><strong>{{ $actor->first_name }} {{ $actor->last_name }}{{ ($actor->equity) ? '*' : ''}}</strong> (<em>{{ $actor->pivot->roles }}</em>) {!! $actor->bio !!}</p>
 
                                         {!! (!empty($actor->equity)) ? '<em>*Member of Actors’ Equity Association, the Union of Professional Actors and Stage Managers in the United States.</em>' : '' !!}
 
@@ -72,7 +72,7 @@
 
                             @else
 
-                                <p><strong>{{ $actor->first_name }} {{ $actor->last_name }}</strong> (<em>{{ $actor->pivot->roles }}</em>) {{ $actor->bio }}</p>
+                                <p><strong>{{ $actor->first_name }} {{ $actor->last_name }}</strong> (<em>{{ $actor->pivot->roles }}</em>) {!! $actor->bio !!}</p>
 
                             @endif
 
@@ -92,7 +92,7 @@
 
                         @forelse ($production->playwrights as $playwright)
 
-                            <p><strong>{{ $playwright->first_name }} {{ $playwright->last_name }}</strong> {{ $playwright->bio }}</p>
+                            <p><strong>{{ $playwright->first_name }} {{ $playwright->last_name }}</strong> {!! $playwright->bio !!}</p>
 
                         @empty
 
