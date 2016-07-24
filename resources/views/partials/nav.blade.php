@@ -32,7 +32,7 @@
                                         <span class="ds-icon-sm digital-suite pull-left no-top visible-xs"></span>
                                         CURRENT SEASON                      </a>
                                     <ul class="x-dropdown-menu" role="menu">
-                                        <li><a href="/productions/2016-2017/hostags-and-other-plays">Hostages amd other plays</a></li>
+                                        <li><a href="/productions/2016-2017/hostages-and-other-plays">Hostages amd other plays</a></li>
                                         <li><a href="/productions/2016-2017/velocity-of-autumn">Velocity of Autumn</a></li>
                                         <li><a href="/productions/2016-2017/veronicas-room">Veronica's Room</a></li>
                                         <li><a href="/productions/2016-2017/give-me-christmas">Give Me Christmas</a></li>
