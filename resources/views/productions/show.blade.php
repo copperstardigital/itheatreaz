@@ -222,6 +222,8 @@
 
             </div>
 
+            <br style="clear:both; margin-bottom: 20px;" />
+
         @endif
     </div>
 
