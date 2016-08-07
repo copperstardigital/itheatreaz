@@ -121,7 +121,7 @@
 
         <?php $carousel = glob(public_path() . '/images/slideshows/' . $production->production_url . '/*'); ?>
 
-        @if (count($carousel))
+        @if (count($carousel) && empty($production->synopsis))
 
             <hr />
 
@@ -161,6 +161,64 @@
                     <div class="col-sm-4"></div>
 
                 </div>
+
+            </div>
+
+        @elseif (count($carousel) && !empty($production->synopsis))
+
+            <hr />
+
+            <div class="well hidden-xs" style="margin-bottom: 100px;">
+
+                <div class="row">
+
+                    <div class="col-sm-6">
+
+                        <h2>Show Images</h2>
+
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
+                            <!--<ol class="carousel-indicators">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1">
+                                <li data-target="#myCarousel" data-slide-to="2">
+                                <li data-target="#myCarousel" data-slide-to="3">
+                            </ol>-->
+
+                            <div class="carousel-inner">
+                                <?php $counter = 1; ?>
+
+
+                                @foreach ($carousel as $photo)
+                                    <div class="item {{ ($counter == 1) ? 'active' : '' }}">
+                                        <img class="img-responsive img-thumbnail" src="/images/slideshows/{{ $production->production_url }}/{{ basename($photo) }}" alt="{{ $production->title }}" />
+                                    </div>
+                                    <?php $counter++; ?>
+                                @endforeach
+
+                            </div>
+
+                            <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                            <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <h2>About the Show</h2>
+
+                        {!! $production->synopsis !!}
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        @elseif (!empty($production->synopsis))
+
+            <div class="well">
+
+                <h2>About the Show</h2>
+
+                {!! $production->synopsis !!}
 
             </div>
 
