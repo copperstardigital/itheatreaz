@@ -16,7 +16,7 @@ class Production extends \Eloquent {
     }
 
     public function crew() {
-        return $this->hasMany('App\Models\User', 'crew_production', 'production_id', 'user_id')->orderBy('last_name')->withPivot('roles');
+        return $this->belongsToMany('App\Models\User', 'crew_production', 'production_id', 'user_id')->orderBy('last_name')->withPivot('roles');
     }
 
     public function playwrights() {
