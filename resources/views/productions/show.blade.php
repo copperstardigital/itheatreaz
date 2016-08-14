@@ -104,7 +104,7 @@
 
                         @forelse ($production->crew as $crew)
 
-                            <p><strong>{{ $crew->first_name }} {{ $crew->last_name }}</strong> (<em>{{ $crew->pivot->roles }}</em>)</p>
+                            <p><strong>{{ $crew->first_name }} {{ $crew->last_name }}</strong> (<em>{{ $crew->pivot->roles }}</em>) {!! $crew->bio !!}</p>
 
                         @empty
 
