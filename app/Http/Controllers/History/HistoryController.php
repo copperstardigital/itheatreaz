@@ -62,10 +62,10 @@ class HistoryController extends Controller {
 	{
 		$productions = $this->repo->getProductions($season);
 
-        if (empty($productions)) {
+        if ($productions->isEmpty()) {
             abort(404);
         }
-        
+
         return view('history.season', array(
            'productions' => $productions,
            'season' => $season
