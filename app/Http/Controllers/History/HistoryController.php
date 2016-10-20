@@ -61,6 +61,11 @@ class HistoryController extends Controller {
 	public function show($season)
 	{
 		$productions = $this->repo->getProductions($season);
+
+        if (empty($productions)) {
+            abort(404);
+        }
+        
         return view('history.season', array(
            'productions' => $productions,
            'season' => $season
