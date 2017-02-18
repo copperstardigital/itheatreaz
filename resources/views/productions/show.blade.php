@@ -227,9 +227,11 @@
         @endif
     </div>
 
+    <br style="clear:both; margin-bottom: 80px;" />
+
 </div>
 
-<br style="clear:both; margin-bottom: 80px;" />
+
 @stop
 
 @section('css')
