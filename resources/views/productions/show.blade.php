@@ -228,6 +228,8 @@
     </div>
 
 </div>
+
+<br style="clear:both; margin-bottom: 20px;" />
 @stop
 
 @section('css')
