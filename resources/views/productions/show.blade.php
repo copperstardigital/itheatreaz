@@ -225,9 +225,10 @@
             <br style="clear:both; margin-bottom: 20px;" />
 
         @endif
-    </div>
 
-    <br style="clear:both; margin-bottom: 80px;" />
+        <br style="clear:both; margin-bottom: 80px;" />
+
+    </div>
 
 </div>
 
