@@ -226,8 +226,6 @@
 
         @endif
 
-        <br style="clear:both; margin-bottom: 80px;" />
-
     </div>
 
 </div>
