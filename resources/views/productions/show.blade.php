@@ -229,7 +229,7 @@
 
 </div>
 
-<br style="clear:both; margin-bottom: 20px;" />
+<br style="clear:both; margin-bottom: 80px;" />
 @stop
 
 @section('css')
