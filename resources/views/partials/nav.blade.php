@@ -28,7 +28,7 @@
 
                             <ul class="nav-primary">
                                 <li class="dropdown first">
-                                    <a href="/productions/2014-2015" class="x-dropdown-toggle" data-toggle="x-dropdown">
+                                    <a href="/productions/2016-2017" class="x-dropdown-toggle" data-toggle="x-dropdown">
                                         <span class="ds-icon-sm digital-suite pull-left no-top visible-xs"></span>
                                         CURRENT SEASON                      </a>
                                     <ul class="x-dropdown-menu" role="menu">
