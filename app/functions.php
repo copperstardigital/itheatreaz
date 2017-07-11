@@ -4,7 +4,7 @@ use App\Models\Production;
 
 function getCurrentSeason() {
     $date = date('Y-m-d');
-    if ($date >= date('Y') . '-07-12') {
+    if ($date >= date('Y') . '-07-10') {
         $currentSeason = date('Y') . '-' . date('Y', strtotime('+1 year'));
     } else {
         $currentSeason = date('Y', strtotime('-1 year')) . '-' . date('Y');
