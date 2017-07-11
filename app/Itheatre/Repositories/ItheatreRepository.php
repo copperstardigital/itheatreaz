@@ -66,7 +66,7 @@ class ItheatreRepository {
     public function getCarousel()
     {
         return Production::leftJoin('seasons', 'seasons.id',  '=', 'productions.season_id')
-            ->where('productions.season_id', 14)
+            ->where('productions.season_id', 15)
             ->where('show_closes', '>', date('Y-m-d'))
             ->orderBy('productions.show_closes', 'ASC')
             ->get();
@@ -78,7 +78,7 @@ class ItheatreRepository {
 
     public function getNextShow()
     {
-        return Production::where('season_id', 14)->where('show_closes', '>', date('Y-m-d'))->first();
+        return Production::where('season_id', 15)->where('show_closes', '>', date('Y-m-d'))->first();
     }
 
     public function getDirectorsCorner()
