@@ -38,7 +38,7 @@
 
                     {{--<p>The open mic occurs on Sunday afternoons (4 pm-7 pm), usually on the fourth Sunday of the month. For additional information and to join the DPOM email, contact: <a href="mailto:KWeene1941@gmail.com">KWeene1941@gmail.com</a></p>--}}
                 {{--</div>--}}
-            {{--</div>--}}
+            </div>
         </div>
     </div>
 @stop
