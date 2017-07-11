@@ -32,21 +32,20 @@
                                         <span class="ds-icon-sm digital-suite pull-left no-top visible-xs"></span>
                                         CURRENT SEASON                      </a>
                                     <ul class="x-dropdown-menu" role="menu">
-                                        <li><a href="/productions/2016-2017/hostages-and-other-plays">Hostages amd other plays</a></li>
-                                        <li><a href="/productions/2016-2017/velocity-of-autumn">Velocity of Autumn</a></li>
-                                        <li><a href="/productions/2016-2017/veronicas-room">Veronica's Room</a></li>
-                                        <li><a href="/productions/2016-2017/give-me-christmas">Give Me Christmas</a></li>
-                                        <li><a href="/productions/2016-2017/permanent-collection">Permanent Collection</a></li>
-                                        <li><a href="/productions/2016-2017/hughie">Hughie</a></li>
-                                        <li><a href="/productions/2016-2017/playback-theatre">Playback Theatre</a></li>
+                                        <li><a href="/productions/2017-2018/the-effect">The Effect</a></li>
+                                        <li><a href="/productions/2017-2018/building-the-wall">Building the Wall</a></li>
+                                        <li><a href="/productions/2017-2018/walt-disney">A Public Reading of an Unproduced Screenplay About the Death of Walt Disney</a></li>
+                                        <li><a href="/productions/2017-2018/church-and-state">Church & State</a></li>
                                     </ul>
                                 </li>
 
                                 <li class="dropdown">
                                     <a href="#" class="x-dropdown-toggle" data-toggle="x-dropdown">
                                         <span class="ds-icon-sm digital-suite pull-left no-top visible-xs"></span>
-                                        PAST SEASONS                      </a>
+                                        PAST SEASONS
+                                    </a>
                                     <ul class="x-dropdown-menu" role="menu">
+                                        <li><a href="/productions/2016-2017">2016-2017 Season</a></li>
                                         <li><a href="/productions/2015-2016">2015-2016 Season</a></li>
                                         <li><a href="/productions/2014-2015">2014-2015 Season</a></li>
                                         <li><a href="/productions/2013-2014">2013-2014 Season</a></li>
