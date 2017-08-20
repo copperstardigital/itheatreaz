@@ -101,7 +101,7 @@
 
                                     </div>
                                     <div class="col-md-8">
-                                        <p><strong>{{ $playwright->first_name }} {{ $playwright->last_name }}{{ ($playwright->equity) ? '*' : ''}}</strong> (<em>{{ $playwright->pivot->roles }}</em>) {!! $playwright->bio !!}</p>
+                                        <p><strong>{{ $playwright->first_name }} {{ $playwright->last_name }}{{ ($playwright->equity) ? '*' : ''}}</strong> {!! $playwright->bio !!}</p>
 
                                         {!! (!empty($playwright->equity)) ? '<em>*Member of Actors’ Equity Association, the Union of Professional Actors and Stage Managers in the United States.</em>' : '' !!}
 
