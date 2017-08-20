@@ -92,7 +92,27 @@
 
                         @forelse ($production->playwrights as $playwright)
 
-                            <p><strong>{{ $playwright->first_name }} {{ $playwright->last_name }}</strong> {!! $playwright->bio !!}</p>
+                            @if (File::exists('uploads/headshots/' . $playwright->headshot))
+
+                                <div class="row" style="margin-bottom: 20px;">
+                                    <div class="col-md-4">
+
+                                        <img class="img-responsive img-thumbnail" src="/uploads/headshots/{{ $playwright->headshot }}" alt="{{ $playwright->first_name }} {{ $playwright->last_name }}" />
+
+                                    </div>
+                                    <div class="col-md-8">
+                                        <p><strong>{{ $playwright->first_name }} {{ $playwright->last_name }}{{ ($playwright->equity) ? '*' : ''}}</strong> (<em>{{ $playwright->pivot->roles }}</em>) {!! $playwright->bio !!}</p>
+
+                                        {!! (!empty($playwright->equity)) ? '<em>*Member of Actors’ Equity Association, the Union of Professional Actors and Stage Managers in the United States.</em>' : '' !!}
+
+                                    </div>
+                                </div>
+
+                            @else
+
+                                <p><strong>{{ $playwright->first_name }} {{ $playwright->last_name }}</strong> (<em>{{ $playwright->pivot->roles }}</em>) {!! $playwright->bio !!}</p>
+
+                            @endif
 
                         @empty
 
