@@ -55,7 +55,7 @@ class MailChimpController extends Controller {
             $mailchimp = new Mailchimp(getenv('MC_API_KEY'));
             $mailchimp->lists->subscribe(getenv('MC_LIST_ID'), ['email' => $emailAddress], null, 'html');
 
-            Flash::message('You have been subscribed to our email list');
+            Flash::success('You have been sent a subscription request. Please opt in to our mailing list by clicking the confirmation link.');
             return Redirect::back();
         } catch (Mailchimp_List_AlreadySubscribed $e) {
             Flash::danger($e->getMessage());
