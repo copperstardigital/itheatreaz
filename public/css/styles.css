@@ -180,12 +180,12 @@ ul#collaborators li a#art-works:hover {
   background-position: 0 -256px;
 }
 ul#collaborators li a#phoenix {
-  background-position: 0 -331px;
+  background-position: 0 -781px;
   width: 180px;
   margin-right: 50px;
 }
 ul#collaborators li a#phoenix:hover {
-  background-position: 0 -400px;
+  background-position: 0 -854px;
 }
 ul#collaborators li a#arizona-center {
   background-position: 0 -611px;
@@ -196,11 +196,11 @@ ul#collaborators li a#arizona-center:hover {
   background-position: 0 -681px;
 }
 ul#collaborators li a#scott-hummel {
-  background-position: 0 -888px;
+  background-position: 0 -930px;
   width: 180px;
 }
 ul#collaborators li a#scott-hummel:hover {
-  background-position: 0 -946px;
+  background-position: 0 -999px;
 }
 ul#social-icons {
   display: inline-block;
@@ -409,7 +409,7 @@ ul.bullets li {
 #outer-wrap {
   min-height: 100%;
   position: relative;
-  /* margin-bottom: -70px; */
+  margin-bottom: -70px;
 }
 #outer-wrap:after {
   content: "";
