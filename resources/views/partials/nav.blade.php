@@ -14,7 +14,7 @@
 
                     <a class="nav-btn" href="#nav" id="nav-open-btn"><span class="glyphicon glyphicon-align-justify"></span></a>
 
-                    <!-- SPEAR LOGO -->
+                    <!-- ITC LOGO -->
 
 
                     <a href="/" class="brand"><img class="hidden-xs" src="/images/itc-logo.png" alt="iTheatre Collaborative" /></a>
@@ -32,10 +32,10 @@
                                         <span class="ds-icon-sm digital-suite pull-left no-top visible-xs"></span>
                                         CURRENT SEASON                      </a>
                                     <ul class="x-dropdown-menu" role="menu">
-                                        <li><a href="/productions/2017-2018/the-effect">The Effect</a></li>
-                                        <li><a href="/productions/2017-2018/building-the-wall">Building the Wall</a></li>
-                                        <li><a href="/productions/2017-2018/walt-disney">A Public Reading of an Unproduced Screenplay About the Death of Walt Disney</a></li>
-                                        <li><a href="/productions/2017-2018/church-and-state">Church & State</a></li>
+                                        <li><a href="/productions/2018-2019/white-guy-on-the-bus">White Guy on the Bus</a></li>
+                                        <li><a href="/productions/2018-2019/trial-of-catonsville-nine">The Trial of the Catonsville Nine</a></li>
+                                        <li><a href="/productions/2018-2019/hostage">Hostage</a></li>
+                                        <li><a href="/productions/2018-2019/frost-nixon">Frost / Nixon</a></li>
                                     </ul>
                                 </li>
 
@@ -45,6 +45,7 @@
                                         PAST SEASONS
                                     </a>
                                     <ul class="x-dropdown-menu" role="menu">
+                                        <li><a href="/productions/2017-2018">2017-2018 Season</a></li>
                                         <li><a href="/productions/2016-2017">2016-2017 Season</a></li>
                                         <li><a href="/productions/2015-2016">2015-2016 Season</a></li>
                                         <li><a href="/productions/2014-2015">2014-2015 Season</a></li>
