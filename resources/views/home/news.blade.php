@@ -19,7 +19,7 @@
                                     <img class="img-responsive img-thumbnail" src="{{ url('images/news/no-news.png') }}" />
                                 @endif
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-md-8" style="min-height:250px">
                                 <h1>{{{ $news->headline }}}</h1>
                                 {!! $news->story !!}
                             </div>
