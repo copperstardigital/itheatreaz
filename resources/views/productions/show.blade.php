@@ -92,7 +92,7 @@
 
                         @forelse ($production->playwrights as $playwright)
 
-                            @if (File::exists('uploads/headshots/' . $playwright->headshot))
+                            @if (!empty($playwright->headshot) && File::exists('uploads/headshots/' . $playwright->headshot))
 
                                 <div class="row" style="margin-bottom: 20px;">
                                     <div class="col-md-4">
