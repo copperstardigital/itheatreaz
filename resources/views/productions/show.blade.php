@@ -110,7 +110,7 @@
 
                             @else
 
-                                <p><strong>{{ $playwright->first_name }} {{ $playwright->last_name }}</strong> (<em>{{ $playwright->pivot->roles }}</em>) {!! $playwright->bio !!}</p>
+                                <p><strong>{{ $playwright->first_name }} {{ $playwright->last_name }}</strong> {!! $playwright->bio !!}</p>
 
                             @endif
 
