@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" />
     <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Amaranth|Viga|Dosis:400,800,700|Rambla:400,700,700italic|BenchNine:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="/css/styles.css?t={{ microtime() }}" />
+    <link rel="stylesheet" href="/css/styles.css?t={{ time() }}" />
 
     @yield('css')
 
