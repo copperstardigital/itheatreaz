@@ -78,7 +78,8 @@ class ItheatreRepository {
 
     public function getNextShow()
     {
-        return Production::where('season_id', 15)->where('show_closes', '>', date('Y-m-d'))->first();
+        $seasons = Season::count();
+        return Production::where('season_id', $seasons)->where('show_closes', '>', date('Y-m-d'))->first();
     }
 
     public function getDirectorsCorner()
