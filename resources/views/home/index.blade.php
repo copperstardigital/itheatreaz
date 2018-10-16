@@ -4,9 +4,10 @@
 @section('meta', 'ITheatre Collaborative is located behind the Herberger Theatre, which is located at 222 E. Monroe St in Phoenix.  Enter from Van Buren Street')
 
 @section('content')
+
 <div class="news content">
     <div class="container">
-        <div class="row">
+        <div class="row margin-bottom-20">
             <div class="col-md-6 col-xs-12">
                 <h2>Director's Corner</h2>
 
@@ -35,7 +36,6 @@
                 @endif
             </div>
         </div>
-
 
 @stop
 

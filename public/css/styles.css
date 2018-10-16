@@ -73,7 +73,10 @@ header#nav .container img {
   color: #222222;
 }
 /* Base styles */
-a {
+a,
+a:hover,
+a:focus,
+a:active {
   color: #9A2024;
 }
 h1 {
@@ -108,14 +111,23 @@ h3.next-show {
 .btn-primary:hover {
   background-color: #A44A4E;
 }
+ul.list-group li.list-group-item {
+  padding: 0;
+}
 ul.list-group li.list-group-item:hover {
   background-color: #A44A4E;
   color: #FFF;
 }
+ul.list-group li.list-group-item a {
+  padding: 10px 15px;
+  display: block;
+}
 ul.list-group li.list-group-item a:hover {
   text-decoration: none;
   color: #FFF;
-  display: block;
+}
+.margin-bottom-20 {
+  margin-bottom: 20px;
 }
 .error {
   background-color: #c96d74;
@@ -133,8 +145,9 @@ ul.news-list .list-group-item {
 footer#footer #collaborators-box {
   background-color: #E2DCCA;
   width: 100%;
-  /* height: 150px; */
+  height: 150px;
   text-align: center;
+  padding-top: 5px;
 }
 footer#footer label.email {
   color: #781A1B;
