@@ -492,14 +492,14 @@ ul.bullets li {
  * Off Canvas Navbar
  */
 
-#outer-wrap {
+#outer-nav-wrap {
   min-height: 100%;
   position: relative;
   margin-bottom: -70px;
 
 }
 
-#outer-wrap:after {
+#outer-nav-wrap:after {
   content: "";
   display: block;
   height: 70px;
@@ -760,14 +760,14 @@ ul.bullets li {
     color: #FFF;
     display: block;
     height: auto;
-    line-height: 30px;
-    padding: 0 15px 0 13px;
+    padding: 5px 15px 5px 13px;
     text-transform: none;
     min-width: 180px;
     border-bottom: 1px solid #eee;
     border-left: 3px solid #eeeeee;
     font-family: 'BenchNine', sans-serif;
     font-size: 17px;
+    line-height: 1.3em;
   }
 
   #nav > div.block > ul > li:hover > ul li a:hover {
@@ -834,9 +834,10 @@ ul.bullets li {
 
 @media screen and (max-width: 767px) {
 
-  #outer-wrap {
+  #outer-nav-wrap {
     height: auto;
     overflow: hidden;
+    margin-bottom: -70px;
   }
 
   #inner-wrap {

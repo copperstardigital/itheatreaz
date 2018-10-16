@@ -5,6 +5,7 @@
 @section('meta', substr(strip_tags(str_replace('"', '\'', $production->show_description)), 0, 200))
 
 @section('content')
+
 <div class="content">
     <div class="container">
         <div class="row">
@@ -50,6 +51,7 @@
                 <div class="col-md-6">
 
                     <div class="well production-staff">
+
                         <h2>Cast</h2>
 
                         @forelse ($production->actors as $actor)

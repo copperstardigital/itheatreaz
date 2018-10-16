@@ -77,19 +77,19 @@ a {
   color: #9A2024;
 }
 h1 {
-  color: #781a1b;
+  color: #781A1B;
   font-family: "Playfair Display", Georgia, Times, "Times New Roman", serif;
   font-weight: bold;
   font-size: 30px;
 }
 h2 {
-  color: #781a1b;
+  color: #781A1B;
   font-family: "Playfair Display", Georgia, Times, "Times New Roman", serif;
   font-weight: bold;
   font-size: 26px;
 }
 h3 {
-  color: #781a1b;
+  color: #781A1B;
   font-family: "Playfair Display", Georgia, Times, "Times New Roman", serif;
   font-weight: bold;
   font-size: 22px;
@@ -131,13 +131,13 @@ ul.news-list .list-group-item {
 }
 /* Footer */
 footer#footer #collaborators-box {
-  background-color: #e2dcca;
+  background-color: #E2DCCA;
   width: 100%;
   /* height: 150px; */
   text-align: center;
 }
 footer#footer label.email {
-  color: #781a1b;
+  color: #781A1B;
   font-family: "Playfair Display", Georgia, Times, "Times New Roman", serif;
   font-weight: bold;
   font-style: italic;
@@ -330,7 +330,7 @@ footer#footer #links span {
   font-size: 12px;
 }
 footer#footer #collaborators-box h4 {
-  color: #781a1b;
+  color: #781A1B;
   font-family: "Playfair Display", Georgia, Times, "Times New Roman", serif;
   font-weight: bold;
   font-style: italic;
@@ -350,7 +350,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="file"]::-webkit-file-upload-button,
 button {
-  background-color: #781a1b;
+  background-color: #781A1B;
   color: #FFF;
   font-family: "Playfair Display", Georgia, Times, "Times New Roman", serif;
   font-style: italic;
@@ -406,12 +406,12 @@ ul.bullets li {
 /**
  * Off Canvas Navbar
  */
-#outer-wrap {
+#outer-nav-wrap {
   min-height: 100%;
   position: relative;
   margin-bottom: -70px;
 }
-#outer-wrap:after {
+#outer-nav-wrap:after {
   content: "";
   display: block;
   height: 70px;
@@ -632,14 +632,14 @@ ul.bullets li {
     color: #FFF;
     display: block;
     height: auto;
-    line-height: 30px;
-    padding: 0 15px 0 13px;
+    padding: 5px 15px 5px 13px;
     text-transform: none;
     min-width: 180px;
     border-bottom: 1px solid #eee;
     border-left: 3px solid #eeeeee;
     font-family: 'BenchNine', sans-serif;
     font-size: 17px;
+    line-height: 1.3em;
   }
   #nav > div.block > ul > li:hover > ul li a:hover {
     color: #FFF;
@@ -687,9 +687,10 @@ ul.bullets li {
 }
 /* XS */
 @media screen and (max-width: 767px) {
-  #outer-wrap {
+  #outer-nav-wrap {
     height: auto;
     overflow: hidden;
+    margin-bottom: -70px;
   }
   #inner-wrap {
     height: auto;
@@ -740,7 +741,7 @@ ul.bullets li {
     text-decoration: none;
     font-family: "Playfair Display", Georgia, Times, "Times New Roman", serif;
     font-size: 12px;
-    background-color: #781a1b;
+    background-color: #781A1B;
   }
   #nav li a span {
     margin-right: 6px;
@@ -798,10 +799,7 @@ ul.bullets li {
   }
   .csstransforms3d.csstransitions.js-ready #nav {
     left: 0;
-    -webkit-transform: translate3d(-100%, 0, 0);
-    -ms-transform: translate3d(-100%, 0, 0);
     transform: translate3d(-100%, 0, 0);
-    -webkit-backface-visibility: hidden;
     -ms-backface-visibility: hidden;
     -o-backface-visibility: hidden;
     backface-visibility: hidden;
@@ -815,7 +813,6 @@ ul.bullets li {
          -o-transform: translate3d(0, 0, 0);
             transform: translate3d(0, 0, 0);
     */
-    transition: -webkit-transform 500ms ease;
     transition: transform 500ms ease;
     /*
     -webkit-backface-visibility: hidden;
@@ -826,8 +823,6 @@ ul.bullets li {
     */
   }
   .csstransforms3d.csstransitions.js-nav #inner-wrap {
-    -webkit-transform: translate3d(85%, 0, 0) scale3d(1, 1, 1);
-    -ms-transform: translate3d(85%, 0, 0) scale3d(1, 1, 1);
     transform: translate3d(85%, 0, 0) scale3d(1, 1, 1);
   }
   .csstransforms3d.csstransitions.js-ready #nav .block {
@@ -836,18 +831,14 @@ ul.bullets li {
     -webkit-transition: opacity 300ms 100ms, -webkit-transform 250ms ease;
     -webkit-transition-delay: ease, 0s;
     transition: opacity 300ms 100ms ease, transform 250ms ease;
-    -webkit-transform: translate3d(85%, 0, 0) scale3d(0.9, 0.9, 0.9);
-    -ms-transform: translate3d(85%, 0, 0) scale3d(0.9, 0.9, 0.9);
     transform: translate3d(85%, 0, 0) scale3d(0.9, 0.9, 0.9);
-    -webkit-transform-origin: 50% 0%;
-    -ms-transform-origin: 50% 0%;
     transform-origin: 50% 0%;
   }
   .csstransforms3d.csstransitions.js-nav #nav .block {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
-    -webkit-transform: translate3d(0, 0, 0);
-    -ms-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
   }
 }
+
+/*# sourceMappingURL=styles.css.map */

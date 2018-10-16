@@ -2,7 +2,7 @@
 
 @include('partials.flash_message')
 
-<div id="outer-wrap" class="content">
+<div id="outer-nav-wrap" class="content">
 
     <div id="inner-wrap" class="main">
 
