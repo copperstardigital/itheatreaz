@@ -7,7 +7,7 @@
 
 <div class="news content">
     <div class="container">
-        <div class="row margin-bottom-20">
+        <div class="row margin-bottom-20 clearfix">
             <div class="col-md-6 col-xs-12">
                 <h2>Director's Corner</h2>
 
