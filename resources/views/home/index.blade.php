@@ -8,7 +8,7 @@
 <div class="news content">
     <div class="container">
         <div class="row margin-bottom-20">
-            <div class="col-md-6 col-xs-12">
+            <div class="col-sm-6 col-xs-12">
                 <h2>Director's Corner</h2>
 
                    <h4>{{ $corner->headline }}</h4>
@@ -19,13 +19,11 @@
 
                    <a href="/directors-corner" class="btn btn-primary pull-right">Read Past Director's Corners</a>
             </div>
-            <div class="col-md-2 hidden-xs">
+            <div class="col-sm-2 hidden-xs">
                 <img src="{{ url('images/chair.png') }}" alt="Director's chair"/>
             </div>
-        </div>
-        <div class="row">
             <!-- News -->
-            <div class="col-md-4 col-xs-12">
+            <div class="col-sm-4 col-xs-12">
                 <h3>News</h3>
                 @if (count($newsItems))
                     <ul class="list-group news-list">
