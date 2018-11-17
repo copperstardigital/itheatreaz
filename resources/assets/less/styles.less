@@ -187,6 +187,7 @@ footer#footer #collaborators-box {
   padding-top: 5px;
 }
 
+
 footer#footer label.email {
   .headline(22px);
 }
@@ -1046,5 +1047,21 @@ ul.bullets li {
     -ms-transform: translate3d(0, 0, 0);
     -o-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
+  }
+}
+
+@media(max-width: 480px) {
+  footer#footer #collaborators-box {
+    height: 300px;
+  }
+
+  ul#collaborators li {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  footer#footer #collaborators-box {
+    height: 210px;
   }
 }
