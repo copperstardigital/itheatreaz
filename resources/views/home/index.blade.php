@@ -7,7 +7,7 @@
 
 <div class="news content">
     <div class="container">
-        <div class="row margin-bottom-20 clearfix">
+        <div class="row margin-bottom-20">
             <div class="col-md-6 col-xs-12">
                 <h2>Director's Corner</h2>
 
@@ -22,6 +22,8 @@
             <div class="col-md-2 hidden-xs">
                 <img src="{{ url('images/chair.png') }}" alt="Director's chair"/>
             </div>
+        </div>
+        <div class="row">
             <!-- News -->
             <div class="col-md-4 col-xs-12">
                 <h3>News</h3>
